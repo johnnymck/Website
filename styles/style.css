@@ -1,0 +1,194 @@
+body {
+	
+	color: #525252;
+	
+}
+
+.header {
+
+	width: 750; 
+	margin-left: 20px;
+	position: relative;
+
+
+}
+
+.main {
+
+	margin-top: 50px;
+
+}
+
+.bar1 {
+
+	margin-left: 80px;
+	margin-right: 40px;
+	padding: 0px;
+	width: 250px;
+
+}
+
+.bar2 {
+
+	margin-right: 50px;
+	width: 250px;
+
+}
+
+.bar3 {
+
+	margin-left: 40px;
+	width: 250px;
+	
+}
+
+#inline {
+
+	text-align: justify;
+	font-family: Arial, Helvetica, sans-serif;
+	
+
+}
+
+#logo {
+
+	position: relative;
+	margin-right: 120px;
+	float: left;
+
+}
+
+#intro {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#header {
+
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 72;
+	padding: 0px;
+	margin-bottom: 0px;
+
+}
+
+#sub {
+
+	font-size: 42;
+	font-family: "Trebuchet MS", sans-serif;
+	margin-bottom: 0px;
+
+}
+
+#insub {
+
+	font-size: 18;
+	font-family: "Trebuchet MS", sans-serif;
+
+}
+
+#link {
+	
+	color: #408AD4;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 10px;
+	margin-bottom: 60px;
+	font-size: 28px;
+
+}
+
+#link a:link {
+	
+	color: #408AD4;
+	text-decoration: none;
+	display: block;
+
+}
+
+#link a:visited {
+
+	text-decoration: none;
+	color: #408AD4;
+
+}
+
+#link a:hover {
+
+	text-decoration: underline;
+	color: #408AD4;
+
+}
+
+#sublink {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: bold;
+
+}
+
+#sublink a:link {
+
+	color: #408AD4;
+	text-decoration: none;
+	
+}
+
+#sublink a:visited {
+
+	color: #408AD4;
+	text-decoration: none;
+
+}
+
+#sublink a:hover {
+
+	color: #408AD4;
+	text-decoration: underline;
+
+}
+
+#highlight {
+
+	font-style: bold;
+	color: #408AD4;
+
+}
+
+/************************
+*	Selection styles*
+*************************/
+/* Normal */
+::selection {
+	background: #525252;
+	color: white
+}
+
+/* Mozilla */
+::-moz-selection {
+	background: #525252;
+	color: white;
+}
+
+/* Webkit */
+::-webkit-selection {
+	background: #525252;
+	color: white;
+}
+
+
+#cleaner {
+
+	clear: both;
+
+}
+
+footer {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	
+	margin-top: 50px;
+	margin-left: 365px;
+
+}
